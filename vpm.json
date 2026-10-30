@@ -3,5 +3,27 @@
   "id": "moe.eyemono.vpm",
   "url": "https://eyemono-moe.github.io/vpm/vpm.json",
   "author": "eyemono",
-  "packages": {}
+  "packages": {
+    "moe.eyemono.hitokoto": {
+      "versions": {
+        "0.2.0": {
+          "name": "moe.eyemono.hitokoto",
+          "displayName": "hitokoto",
+          "version": "0.2.0",
+          "unity": "2022.3",
+          "description": "VRChat avatar status bubble driven over OSC.",
+          "author": {
+            "name": "eyemono"
+          },
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.0",
+            "nadena.dev.modular-avatar": ">=1.18.0"
+          },
+          "license": "MIT",
+          "url": "https://github.com/eyemono-moe/vpm/releases/download/hitokoto-v0.2.0/moe.eyemono.hitokoto-0.2.0.zip",
+          "zipSHA256": "646e1db28ff627dc56c9710c542b8cfd64070509caf65f97e7081c87f7180e70"
+        }
+      }
+    }
+  }
 }
