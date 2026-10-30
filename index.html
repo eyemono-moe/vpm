@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eyemono VPM</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1f1f23; --bg: #fafafa; --muted: #6b6b75; --accent: #6d4aff; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ececf0; --bg: #17171b; --muted: #9a9aa5; --accent: #a28bff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  p { color: var(--muted); }
+  .add { display: inline-block; margin: 16px 0; padding: 12px 20px; border-radius: 12px; background: var(--accent);
+         color: #fff; font-weight: 600; text-decoration: none; }
+  code { word-break: break-all; }
+</style>
+</head>
+<body>
+<main>
+  <h1>eyemono VPM</h1>
+  <p>VRChat Creator Companion (VCC) 用のリポジトリです。</p>
+  <a class="add" href="vcc://vpm/addRepo?url=https%3A%2F%2Feyemono-moe.github.io%2Fvpm%2Fvpm.json">VCC に追加</a>
+  <p>ボタンが使えない場合は、VCC の Settings → Packages → Add Repository に次の URL を入力してください。<br>
+    <code>https://eyemono-moe.github.io/vpm/vpm.json</code></p>
+  <h2>パッケージ</h2>
+  <ul>
+    <li><strong>hitokoto</strong>：Web ブラウザから送った短文を、アバターの吹き出しに表示します。
+      PC で動かすアプリは <a href="https://github.com/eyemono-moe/vpm/releases">Releases</a> からダウンロードしてください。</li>
+  </ul>
+</main>
+</body>
+</html>
